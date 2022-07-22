@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.port {
+    padding: 4rem 3rem;
+ }
+
+body {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(270, 20%, 96%);
+}
+
+
+.purple {
+    width: 50%;
+    padding: 30rem 0;
+    background: linear-gradient(to top, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    position: absolute;
+    top: -345px;
+    left: -40px;
+    border-radius: 0 0 1000px 0;
+    z-index: -1;
+}
+
+.container {
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 3%;
+    max-width: 330px;
+    margin: auto;
+    box-shadow: 5px 5px rgba(19, 1, 1, 0.06);
+}
+
+.inner {
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 20px;
+}
+
+.header {
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-radius: 20px 20px 10px 10px;
+}
+
+.prism {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 0 15px 15px;
+}
+
+.flex-con {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.person {
+    width: 12%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+
+.userName {
+    margin: 10px;
+    font-weight: 500;
+    color: hsl(276, 100%, 81%);
+}
+
+
+.userName p {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: .5;
+}
+
+
+.leftMessage {
+   width: 70%;
+   background-color: hsl(206, 6%, 79%);
+   font-size: 12px;
+   margin: 10px;
+   padding: 2.9%;
+   color: hsl(276, 55%, 52%);
+   border-radius: 15px 15px 15px 5px;
+}
+
+.dogs {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.doggy {
+    width: 20%;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+.reply {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rightMessage {
+    font-size: 12px;
+    width: 70%;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(271, 15%, 43%);
+    padding: 2.5%;
+    margin: 10px;
+    text-align: left;
+    border-radius: 15px 15px 5px 15px;
+}
+
+#small {
+    width: 50%;
+    padding: 10px;
+    margin: 0 10px 10px;
+}
+
+
+.payment {
+    background: linear-gradient(to left,  hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 15px 15px 15px 5px;
+}
+
+
+
+.pay {
+    display: flex;
+    align-items: center;
+}
+
+.pay p {
+    padding-left: 10px;
+    opacity: .821;
+}
+
+.amount {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sent {
+    display: flex;
+    justify-content: center;
+}
+    
+
+.message {
+    margin: 10px 10px 15px;
+    width: 90%;
+    color: hsl(270, 7%, 64%);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+
+
+.message p {
+    padding-left: 15px;
+    opacity: .5;
+}
+
+
+.facts {
+    text-align: center;
+    width: 85%;
+    max-width: 310px;
+    margin: 30px auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: hsl(271, 36%, 24%);
+}
+
+
+.facts p {
+    padding-top: 20px;
+    line-height: 1.7;
+    color: hsl(270, 7%, 64%);
+}
+
+
+
+@media screen and (min-width:768px) {
+   .container {
+    position: relative;
+    left: 40px; 
+} 
+
+   .purple {
+    max-width: 30%;
+    border-radius: 0 0 15rem 15rem;
+   }
+
+
+   .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .leftMessage {
+    width: 60%;
+   }
+
+   .rightMessage {
+    width: 60%;
+   }
+
+   .facts {
+    text-align: left;
+    max-width: 535px;
+   }
+
+
+   .fact {
+    margin-left: 20px;
+    margin-bottom: 50px;
+   }
+
+}
+
